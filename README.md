@@ -17,4 +17,4 @@ poetry run uvicorn main:app --reload
 
 ### Tables Structure
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/adii21-Ux/library-management-api/blob/master/schema.png)
+![alt text](https://github.com/adii21-Ux/library-management-api/blob/master/schema.png)
