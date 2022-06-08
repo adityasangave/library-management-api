@@ -21,9 +21,11 @@ poetry run uvicorn main:app --reload
 
 ### Directory Structure
 
+```
 .
 |
 |___database.py
 |___main.py
 |___models.py
 |___schemas.py
+```
