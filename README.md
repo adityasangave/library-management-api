@@ -18,3 +18,12 @@ poetry run uvicorn main:app --reload
 ### Tables Structure
 
 ![alt text](https://github.com/adii21-Ux/library-management-api/blob/master/schema.png)
+
+### Directory Structure
+
+.
+|
+|___database.py
+|___main.py
+|___models.py
+|___schemas.py
