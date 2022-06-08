@@ -106,3 +106,10 @@ def put(bookName:str, book:schemas.updateInventory, session: Session = Depends(g
     
     session.commit()
     return bookObj
+
+
+# popularbooks
+@app.get('/get/popular-books')
+def get(session: Session = Depends(getSession)):
+    query = session.query(models.Books.bookName,func.count(models.Books.bookName).label('qty')).group_by(models.Books.bookId).order_by(desc('qty')).first()
+    return query.bookName
