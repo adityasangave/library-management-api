@@ -29,3 +29,8 @@ poetry run uvicorn main:app --reload
 |___models.py
 |___schemas.py
 ```
+
+1. Database.py : Contains functions to create database connection.
+2. main.py : Contains routes and controllers for API
+3. models.py : Contains database tables
+4. schemas.py : Database tables structure and fields type to verify data
